@@ -30,24 +30,23 @@ body {
 
 .spazio{
     margin-left: 10px;
-}
-
-.font{
     font-weight: 600;
 }
 
-.editorial{
-    display: inline-block;
+.blu{
     border-radius: 30%;
     background-color: #45ABEA;
     width: 60px;
     height: 30px;
-    text-align: center;
     padding: 6px;
-    color: white;
-    font-size: 13px;
 }
 
+.general{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: white;  
+}
 /* / comuni */
 
 
@@ -74,10 +73,6 @@ body {
     vertical-align: middle;
 }
 /* / header  */
-
-
-
-
 
 
 /* main  */
@@ -127,69 +122,47 @@ body {
     padding-top: 45px;
 }
 
-#seconda-lista{
+.spazio-liste{
     margin-top: 30px;
 }
 
 .viola{
-    display: inline-block;
     border-radius: 30%;
     background-color: rgb(87, 37, 110);
     width: 70px;
     height: 35px;
-    text-align: center;
     padding: 10px 6px;
-    color: white;
-    font-size: 12px;
 }
 
 .verde-marcio{
-    display: inline-block;
     border-radius: 30%;
     background-color: rgb(52, 136, 132);
     width: 80px;
     height: 35px;
-    text-align: center;
     padding: 10px 6px;
-    color: white;
-    font-size: 12px;
 }
 
 .arancio{
-    display: inline-block;
     border-radius: 35%;
     background-color: orange;
     width: 60px;
     height: 35px;
-    text-align: center;
     padding: 10px 6px;
-    color: white;
-    font-size: 12px;
 }
 
 .rosa{
-    display: inline-block;
     border-radius: 35%;
     background-color: rgb(245, 129, 148);
     width: 60px;
     height: 35px;
-    text-align: center;
     padding: 10px 6px;
-    color: white;
-    font-size: 12px; 
 }
 
 .verdino{
-    display: inline-block;
     border-radius: 35%;
     background-color: rgb(138, 167, 71);
     width: 60px;
     height: 35px;
-    text-align: center;
-    padding: 10px 6px;
-    color: white;
-    font-size: 12px; 
+    padding: 10px 6px; 
 }
-
-
 /* / main  */
