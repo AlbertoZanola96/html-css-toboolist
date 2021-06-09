@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 body {
@@ -9,7 +10,9 @@ body {
 }
 
 /* comuni */
-
+.blu {
+    background-color: #45ABEA;
+}
 
 
 /* / comuni */
@@ -33,7 +36,6 @@ body {
 
 #scritta-logo{
     font-size: 50px;
-    font-family: Arial;
     font-weight: 700;
     line-height: 100px;
     vertical-align: middle;
@@ -46,6 +48,42 @@ body {
 
 
 /* main  */
+#contenitore1{
+    width: 70%;
+    height: 80px;
+    margin: 100px auto 0;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pulsante1{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 6px 13px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    }
+
+#pulsante2{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: rgb(187, 187, 187) solid 1px;
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 5px;
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+
+
 
 
 
